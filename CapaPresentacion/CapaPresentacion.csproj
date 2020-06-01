@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6CA6F4E-CDAE-4269-8231-C427A540668D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DetalleProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleProductos.Designer.cs">
+      <DependentUpon>DetalleProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiseñoPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiseñoPrincipal.Designer.cs">
+      <DependentUpon>DiseñoPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Promociones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Promociones.Designer.cs">
+      <DependentUpon>Promociones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecuperarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecuperarContraseña.Designer.cs">
+      <DependentUpon>RecuperarContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarUsuarioCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarUsuarioCliente.Designer.cs">
+      <DependentUpon>RegistrarUsuarioCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarUsuarioTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarUsuarioTienda.Designer.cs">
+      <DependentUpon>RegistrarUsuarioTienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro de Novedades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro de Novedades.Designer.cs">
+      <DependentUpon>Registro de Novedades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SobreNosotros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SobreNosotros.Designer.cs">
+      <DependentUpon>SobreNosotros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubirProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubirProducto.Designer.cs">
+      <DependentUpon>SubirProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubirPromocion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubirPromocion.Designer.cs">
+      <DependentUpon>SubirPromocion.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DetalleProductos.resx">
+      <DependentUpon>DetalleProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiseñoPrincipal.resx">
+      <DependentUpon>DiseñoPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Promociones.resx">
+      <DependentUpon>Promociones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RecuperarContraseña.resx">
+      <DependentUpon>RecuperarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarUsuarioCliente.resx">
+      <DependentUpon>RegistrarUsuarioCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarUsuarioTienda.resx">
+      <DependentUpon>RegistrarUsuarioTienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro de Novedades.resx">
+      <DependentUpon>Registro de Novedades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SobreNosotros.resx">
+      <DependentUpon>SobreNosotros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubirProducto.resx">
+      <DependentUpon>SubirProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubirPromocion.resx">
+      <DependentUpon>SubirPromocion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon maximizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon restaurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\118G659_1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7501033955693.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\116204_691804479.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3089193-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7751493006897.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprar-aceite-hidratante-aloe-vera-johnson-s-baby-500-ml-online.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copitos-jj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d48ec934.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon maximizar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTON_VOLVER_MENU1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_man-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prodcutos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pagos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa De Soporte\Capa De Soporte.csproj">
+      <Project>{a5a2d46c-2838-4c94-9a2c-ef36d83d00ca}</Project>
+      <Name>Capa De Soporte</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reglas de Negocio\Reglas de Negocio.csproj">
+      <Project>{553cd1c1-8973-45b8-86b3-be38ba0f26b8}</Project>
+      <Name>Reglas de Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_man-1281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-usuario-masculino-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-usuario-de-género-neutro-48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

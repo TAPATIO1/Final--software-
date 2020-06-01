@@ -1,0 +1,18 @@
+C:\juan\ing software\Ingenieria del software (1)\Ingenieria del software (1)\Ingenieria del software\CapaPresentacion\CapaPresentacion\Capa De Soporte\bin\Debug\netstandard2.0\Capa De Soporte.deps.json
+C:\juan\ing software\Ingenieria del software (1)\Ingenieria del software (1)\Ingenieria del software\CapaPresentacion\CapaPresentacion\Capa De Soporte\bin\Debug\netstandard2.0\Capa De Soporte.dll
+C:\juan\ing software\Ingenieria del software (1)\Ingenieria del software (1)\Ingenieria del software\CapaPresentacion\CapaPresentacion\Capa De Soporte\bin\Debug\netstandard2.0\Capa De Soporte.pdb
+C:\juan\ing software\Ingenieria del software (1)\Ingenieria del software (1)\Ingenieria del software\CapaPresentacion\CapaPresentacion\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.csprojAssemblyReference.cache
+C:\juan\ing software\Ingenieria del software (1)\Ingenieria del software (1)\Ingenieria del software\CapaPresentacion\CapaPresentacion\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.csproj.CoreCompileInputs.cache
+C:\juan\ing software\Ingenieria del software (1)\Ingenieria del software (1)\Ingenieria del software\CapaPresentacion\CapaPresentacion\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.AssemblyInfoInputs.cache
+C:\juan\ing software\Ingenieria del software (1)\Ingenieria del software (1)\Ingenieria del software\CapaPresentacion\CapaPresentacion\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.AssemblyInfo.cs
+C:\juan\ing software\Ingenieria del software (1)\Ingenieria del software (1)\Ingenieria del software\CapaPresentacion\CapaPresentacion\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.dll
+C:\juan\ing software\Ingenieria del software (1)\Ingenieria del software (1)\Ingenieria del software\CapaPresentacion\CapaPresentacion\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.pdb
+C:\juan\ing software\ProyectoBabyEasy\Proyecto Baby EASY\Capa De Soporte\bin\Debug\netstandard2.0\Capa De Soporte.deps.json
+C:\juan\ing software\ProyectoBabyEasy\Proyecto Baby EASY\Capa De Soporte\bin\Debug\netstandard2.0\Capa De Soporte.dll
+C:\juan\ing software\ProyectoBabyEasy\Proyecto Baby EASY\Capa De Soporte\bin\Debug\netstandard2.0\Capa De Soporte.pdb
+C:\juan\ing software\ProyectoBabyEasy\Proyecto Baby EASY\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.csprojAssemblyReference.cache
+C:\juan\ing software\ProyectoBabyEasy\Proyecto Baby EASY\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.csproj.CoreCompileInputs.cache
+C:\juan\ing software\ProyectoBabyEasy\Proyecto Baby EASY\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.AssemblyInfoInputs.cache
+C:\juan\ing software\ProyectoBabyEasy\Proyecto Baby EASY\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.AssemblyInfo.cs
+C:\juan\ing software\ProyectoBabyEasy\Proyecto Baby EASY\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.dll
+C:\juan\ing software\ProyectoBabyEasy\Proyecto Baby EASY\Capa De Soporte\obj\Debug\netstandard2.0\Capa De Soporte.pdb
